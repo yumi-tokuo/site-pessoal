@@ -235,7 +235,7 @@
 		}
 
 	h1, h2, h3{
-		color: #FFD249;
+		color: rgba(36, 124, 184, 0.979);
 	}
 
 	hr {
@@ -469,7 +469,7 @@
 			padding: 0;
 			letter-spacing: 3px;
 			font-weight: 700;
-			margin-left: 70px;
+			margin-left: 82px;
 		}
 
 			#banner h1 span {
@@ -577,7 +577,7 @@
 			}
 
 				#projetos .inner article p {
-					color: #717171;
+					color: #474747;
 				}
 
 				#projetos .inner article .icon {
