@@ -618,7 +618,6 @@
 }
 .footer-links
 {
-  padding-left:0;
   list-style:none
 }
 .footer-links li
@@ -675,17 +674,17 @@
 }
 .social-icons a.facebook:hover
 {
-  background-color: rgba(25, 91, 136, 0.979)
+  background-color: rgba(49, 138, 197, 0.979)
 }
 .social-icons a.twitter:hover
 {
-  background-color:rgba(37, 121, 177, 0.979)
+  background-color:rgba(56, 144, 202, 0.979)
 }
 .social-icons a.instagram:hover
 {
-  background-color:rgba(40, 140, 206, 0.979)
+  background-color:rgba(81, 151, 197, 0.979)
 }
 .social-icons a.linkedin:hover
 {
-  background-color:rgba(116, 184, 230, 0.979)
+  background-color:rgba(133, 190, 228, 0.979)
 }
