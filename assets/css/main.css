@@ -234,14 +234,13 @@
 			margin: 3em 0;
 		}
 
-	h1, h2, h3{
-		color: rgba(36, 124, 184, 0.979);
+	h1{
+		color: rgba(15, 15, 15, 0.979);
 	}
 
-	hr {
-		border-bottom-color: #FFD249;
+	h2, h3{
+		color: rgba(15, 80, 124, 0.979);
 	}
-
 
 	input[type="submit"],
 	input[type="reset"],
