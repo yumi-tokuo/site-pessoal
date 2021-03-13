@@ -610,6 +610,7 @@
   font-size:16px;
   text-transform:uppercase;
   margin-top:5px;
+  margin-left: 48px;
   letter-spacing:2px
 }
 .site-footer a
@@ -618,12 +619,13 @@
 }
 .footer-links
 {
+  padding-left:0;
   list-style:none
 }
 .footer-links li
 {
   display:block;
-  margin-left: 65px;
+  margin-left: 48px;
 }
 .footer-links a
 {
