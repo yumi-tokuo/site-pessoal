@@ -235,7 +235,7 @@
 		}
 
 	h1{
-		color: rgba(15, 15, 15, 0.979);
+		color: rgba(31, 31, 31, 0.979);
 	}
 
 	h2, h3{
@@ -514,6 +514,10 @@
 			-webkit-flex-direction: row;
 			-ms-flex-direction: row;
 			flex-direction: row;
+		}
+
+		#sobremim h3{
+			margin-left: 15px;
 		}
 
 			#sobremim .inner article {
