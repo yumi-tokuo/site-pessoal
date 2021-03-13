@@ -517,7 +517,7 @@
 		}
 
 		#sobremim h3{
-			margin-left: 50px;
+			margin-left: 60px;
 		}
 
 			#sobremim .inner article {
@@ -541,6 +541,7 @@
 
 					#sobremim .inner article {
 						width: 100%;
+						margin-left: 60px;
 					}
 
 						#sobremim .inner article:first-child {
