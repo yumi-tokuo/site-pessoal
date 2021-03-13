@@ -376,7 +376,7 @@
 	}
 
 	#header {
-		background: #ebebeb;
+		background: #f3f3f3;
 		cursor: default;
 		height: 5em;
 		left: 0;
@@ -410,7 +410,7 @@
 		}
 
 			#header a:hover {
-				color: rgba(221, 64, 53, 0.979);
+				color: rgba(36, 124, 184, 0.979);
 			}
 
 			#header a:last-child {
