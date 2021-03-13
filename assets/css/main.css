@@ -10,6 +10,50 @@
 		vertical-align: baseline;
 	}
 
+	:root{
+		--body-bg: #fff;
+		--body-bg-color: #fff;
+		--body-color: #111111;
+		--h1-color: rgba(31, 31, 31, 0.979);
+		--h2-h3-color: rgba(15, 80, 124, 0.979);
+		--butto-bg-color: #5a5a5a;
+		--button-color: #ffffff !important;
+		--box-shadow: inset 0 0 0 2px #222222;
+		--box-shadow-color: #222222 !important;
+		--header-bg: #f3f3f3;
+		--header-a: #202020;
+		--header-ahover-color:rgba(36, 124, 184, 0.979);
+		--navPanel-bg: #1c1c1c;
+		--navPanel-bg-color: #fff;
+		--banner-bg-color: #0c0c0c;
+		--sobremim-bg-color: #f3f3f3;
+		--sobremim-bg:-moz-linear-gradient(left, #f3f3f3 0%, #f3f3f3 50%, #f3f3f3 0%, #f3f3f3 100%);
+		--sobremim-bg:-webkit-linear-gradient(left, #f3f3f3 0%, #f3f3f3 50%, #f3f3f3 0%, #f3f3f3 100%);
+		--sobremim-bg:linear-gradient(to right, #f3f3f3 0%, #f3f3f3 50%, #f3f3f3 0%, #f3f3f3 100%);
+		--sobremim-filter:progid:DXImageTransform.Microsoft.gradient( startColorstr='#f3f3f3', endColorstr='#f3f3f3',GradientType=1 );
+		--projetos-article-p: #474747;
+		--projetos-article-icon: #b3b3b3;
+		--footer-bg-color: #e0e0e0;
+		--footer-color:#585858;
+		--footer-h6: rgba(36, 124, 184, 0.979);
+		--footer-a:#737373;
+		--footer-a-link: #363636;
+		--footer-ahover-link: rgba(36, 124, 184, 0.979);
+		--footer-bg-icon: #e0e0e0;
+		--icon-a-bg-color: #e0e0e0;
+		--icon-a-color: #535353;
+		--facebook-bg: rgba(49, 138, 197, 0.979);
+		--twitter-bg: rgba(49, 138, 197, 0.979);
+		--instagram-bg: rgba(49, 138, 197, 0.979);
+		--linkedin-bg: rgba(49, 138, 197, 0.979);
+	}
+
+	.dark-mode:root{
+
+
+		
+	}
+
 	body {
 		line-height: 1;
 	}
@@ -157,12 +201,12 @@
 	}
 
 	body {
-		background: #fff;
+		background: var(--body-bg);
 	}
 
 	body {
-		background-color: #fff;
-		color: #111111;
+		background-color: var(--body-bg-color);
+		color: var(--body-color);
 	}
 
 	body, input, select, textarea {
@@ -235,11 +279,11 @@
 		}
 
 	h1{
-		color: rgba(31, 31, 31, 0.979);
+		color: var(--h1-color);
 	}
 
 	h2, h3{
-		color: rgba(15, 80, 124, 0.979);
+		color: var(--h2-h3-color);
 	}
 
 	input[type="submit"],
@@ -275,8 +319,8 @@
 	input[type="button"],
 	button,
 	.button {
-		background-color: #5a5a5a;
-		color: #ffffff !important;
+		background-color: var(--button-bg-color);
+		color: var(--button-color);
 	}
 
 		input[type="submit"].alt,
@@ -285,8 +329,8 @@
 		button.alt,
 		.button.alt {
 			background-color: transparent;
-			box-shadow: inset 0 0 0 2px #222222;
-			color: #222222 !important;
+			box-shadow: var(--box-shadow);
+			color: var(--box-shadow-color);
 		}
 
 	.icon {
@@ -375,7 +419,7 @@
 	}
 
 	#header {
-		background: #f3f3f3;
+		background: var(--header-bg);
 		cursor: default;
 		height: 5em;
 		left: 0;
@@ -401,7 +445,7 @@
 			transition: color 0.2s ease-in-out;
 			display: inline-block;
 			padding: 0 2em;
-			color: #202020;
+			color: var(--header-a) ;
 			text-decoration: none;
 			text-transform: uppercase;
 			font-weight: 700;
@@ -409,7 +453,7 @@
 		}
 
 			#header a:hover {
-				color: rgba(36, 124, 184, 0.979);
+				color: var(--header-ahover-color);
 			}
 
 			#header a:last-child {
@@ -442,8 +486,8 @@
 		position: fixed;
 		right: 0;
 		top: 0;
-		background: #1c1c1c;
-		color: #fff;
+		background: var(--navPanel-bg);
+		color: var(--navPanel-bg-color);
 		height: 100%;
 		max-width: 80%;
 		width: 20em;
@@ -455,7 +499,7 @@
 
 	#banner {
 		background-image: url("../../images/banner.png");
-		background-color: #0c0c0c;
+		background-color: var(--banner-bg-color);
 		background-size: cover;
 		background-repeat: no-repeat;
 		text-align: left;
@@ -497,11 +541,11 @@
 
 	#sobremim {
 		padding: 6em 0 4em 0;
-		background: #f3f3f3;
-		background: -moz-linear-gradient(left, #f3f3f3 0%, #f3f3f3 50%, #f3f3f3 0%, #f3f3f3 100%);
-		background: -webkit-linear-gradient(left, #f3f3f3 0%, #f3f3f3 50%, #f3f3f3 0%, #f3f3f3 100%);
-		background: linear-gradient(to right, #f3f3f3 0%, #f3f3f3 50%, #f3f3f3 0%, #f3f3f3 100%);
-		filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f3f3f3', endColorstr='#f3f3f3',GradientType=1 );
+		background: var(--sobremim-bg-color);
+		background: var(--sobremim-bg);
+		background: var(--sobremim-bg);
+		background: var(--sobremim-bg);
+		filter: var(--sobremim-filter);
 	}
 
 		#sobremim .inner {
@@ -584,21 +628,21 @@
 			}
 
 				#projetos .inner article p {
-					color: #474747;
+					color: var(--projetos-article-p);
 				}
 
 				#projetos .inner article .icon {
-					color: #b3b3b3;
+					color: var(--projetos-article-icon);
 					font-size: 3em;
 				}
 
 .site-footer
 {
-  background-color:#e0e0e0;
+  background-color:var(--footer-bg-color);
   padding:45px 0 20px;
   font-size:15px;
   line-height:24px;
-  color:#585858;
+  color:var(--footer-color);
 }
 .site-footer hr.small
 {
@@ -606,7 +650,7 @@
 }
 .site-footer h6
 {
-  color:rgba(36, 124, 184, 0.979);
+  color:var(--footer-h6);
   font-size:16px;
   text-transform:uppercase;
   margin-top:5px;
@@ -615,7 +659,7 @@
 }
 .site-footer a
 {
-  color:#737373;
+  color:var(--footer-a);
 }
 .footer-links
 {
@@ -629,7 +673,10 @@
 }
 .footer-links a
 {
-  color:#363636;
+  color:var(--footer-a-link);
+}
+.footer-links a:hover{
+  color:var(--footer-ahover-link);
 }
 
 .site-footer .social-icons a
@@ -641,7 +688,7 @@
   margin-left:6px;
   margin-right:0;
   border-radius:100%;
-  background-color:#e0e0e0
+  background-color:var(--footer-bg-icon);
 }
 .copyright-text
 {
@@ -660,8 +707,8 @@
   margin-bottom:4px
 }
 .social-icons a{
-  background-color:#e0e0e0;
-  color:#535353;
+  background-color: var(--icon-a-bg-color);
+  color:var(--icon-a-color);
   font-size:16px;
   display:inline-block;
   line-height:44px;
@@ -676,17 +723,17 @@
 }
 .social-icons a.facebook:hover
 {
-  background-color: rgba(49, 138, 197, 0.979)
+  background-color: var(--facebook-bg)
 }
 .social-icons a.twitter:hover
 {
-  background-color:rgba(56, 144, 202, 0.979)
+  background-color: var(--twitter-bg)
 }
 .social-icons a.instagram:hover
 {
-  background-color:rgba(81, 151, 197, 0.979)
+  background-color: var(--instagram-bg)
 }
 .social-icons a.linkedin:hover
 {
-  background-color:rgba(133, 190, 228, 0.979)
+  background-color: var(--linkedin-bg)
 }
