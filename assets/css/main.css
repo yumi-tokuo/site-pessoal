@@ -49,7 +49,11 @@
 	}
 
 	.dark-mode:root{
+		--body-bg: rgb(21, 21, 46);
+		--body-bg-color: rgb(21, 21, 46);
 		--header-bg: #11101f;
+		--header-a: #f3f3f3;
+		--h2-h3-color: rgba(130, 205, 255, 0.979);
 		
 	}
 
