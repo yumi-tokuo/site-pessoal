@@ -16,7 +16,7 @@
 		--body-color: #111111;
 		--h1-color: rgba(31, 31, 31, 0.979);
 		--h2-h3-color: rgba(15, 80, 124, 0.979);
-		--butto-bg-color: #5a5a5a;
+		--button-bg-color: #5a5a5a;
 		--button-color: #ffffff !important;
 		--box-shadow: inset 0 0 0 2px #222222;
 		--box-shadow-color: #222222 !important;
@@ -66,14 +66,14 @@
 		--projetos-article-p: #f0f0f0;
 		--projetos-article-icon: #f0f0f0;
 		--sobremim-p: #f0f0f0;
-		--footer-bg-color: #11101f;
+		--footer-bg-color: #02001a;
 		--footer-color:#bebebe;
 		--footer-h6: #648dae;
 		--footer-a:#f0f0f0;
 		--footer-a-link: #f0f0f0;
 		--footer-ahover-link: rgba(36, 124, 184, 0.979);
-		--footer-bg-icon: #11101f;
-		--icon-a-bg-color: #11101f;
+		--footer-bg-icon: #02001a;
+		--icon-a-bg-color: #02001a;
 		--icon-a-color: #e6e6e6;
 		
 	}
