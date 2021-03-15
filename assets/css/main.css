@@ -85,11 +85,6 @@
 		--instagram-bg: rgba(49, 138, 197, 0.979);
 		--linkedin-bg: rgba(49, 138, 197, 0.979);	
 	}
-
-	.checkbox {
-		opacity: 0;
-		position: absolute;
-	}
 	
 	.label {
 		background-color: #111;
@@ -120,7 +115,7 @@
 	.checkbox:checked + .label .ball {
 		transform: translateX(24px);
 	}
-	
+
 	body {
 		line-height: 1;
 	}
