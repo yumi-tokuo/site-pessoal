@@ -50,10 +50,6 @@
 		cursor: pointer;
 	}
 
-	.darkmodeLabel:after{
-		content: off;
-	}
-
 	#darkmodeToggle:checked + main{
 		--body-bg: rgb(14, 14, 36);
 		--body-bg-color: rgb(9, 9, 29);
