@@ -44,13 +44,9 @@
 		--twitter-bg: rgba(49, 138, 197, 0.979);
 		--instagram-bg: rgba(49, 138, 197, 0.979);
 		--linkedin-bg: rgba(49, 138, 197, 0.979);
-		display: flex;
-		justify-content: center;
-		margin: 0;
-		transition: 0.2s linear;
 	}
 
-	:root.dark{
+	.dark-mode:root{
 		--body-bg: rgb(14, 14, 36);
 		--body-bg-color: rgb(9, 9, 29);
 		--h2-h3-color: #648dae;
@@ -84,36 +80,6 @@
 		--twitter-bg: rgba(49, 138, 197, 0.979);
 		--instagram-bg: rgba(49, 138, 197, 0.979);
 		--linkedin-bg: rgba(49, 138, 197, 0.979);	
-	}
-	
-	.label {
-		background-color: #111;
-		border-radius: 50px;
-		cursor: pointer;
-		display: flex;
-		align-items: center;
-		justify-content: space-between;
-		padding: 5px;
-		position: relative;
-		height: 26px;
-		width: 50px;
-		transform: scale(1.5);
-	}
-	
-	.label .ball {
-		background-color: #fff;
-		border-radius: 50%;
-		position: absolute;
-		top: 2px;
-		left: 2px;
-		height: 22px;
-		width: 22px;
-		transform: translateX(0px);
-		transition: transform 0.2s linear;
-	}
-	
-	.checkbox:checked + .label .ball {
-		transform: translateX(24px);
 	}
 
 	body {
