@@ -6,13 +6,14 @@
 		<link rel="stylesheet" href="assets/css/main.css" />
 	</head>
 
-	<body>
-		<label for="switch">
-			<input type="checkbox" id="switch" class="dark-mode">
-		</label>
+	<body class="light">
 		<header id="header">
 			<div class="inner" >	
 				<nav id="nav">
+					<section class="controles">
+						<button id="light">Light Mode</button>
+						<button id="dark">Dark Mode</button>
+					</section>
 					<a class="page-scroll" href="index.html">Início</a>
 					<a class="page-scroll" href="#sobremim">Sobre</a>
 					<a class="page-scroll" href="#projetos">Projetos</a>
@@ -108,6 +109,13 @@
 				<p class="copyright-text">Copyright &copy; 2020 YUMI TOKUO</p>
 			</nav>
 			</footer>
-		<script src="assets/js/index.js"></script>
     </body>
+	<script>
+		$(document).ready(function() {
+			$("#drk").click(function(){
+				$("body").removeClass("light");
+				$("body").addClass("dark");
+			})
+		})
+	</script>
 </html>
