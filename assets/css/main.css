@@ -54,11 +54,11 @@
 		--body-bg-color: rgb(9, 9, 29);
 		--header-bg: #11101f;
 		--header-a: #f3f3f3;
-		--sobremim-bg-color: rgb(9, 9, 29);
-		--sobremim-bg:-moz-linear-gradient(left, rgb(9, 9, 29) 0%, rgb(9, 9, 29) 50%, rgb(9, 9, 29) 0%, rgb(9, 9, 29) 100%);
-		--sobremim-bg:-webkit-linear-gradient(left, rgb(9, 9, 29) 0%, rgb(9, 9, 29) 50%, rgb(9, 9, 29) 0%, rgb(9, 9, 29) 100%);
-		--sobremim-bg:linear-gradient(to right, rgb(9, 9, 29) 0%, rgb(9, 9, 29) 50%, rgb(9, 9, 29) 0%, rgb(9, 9, 29) 100%);
-		--sobremim-filter:progid:DXImageTransform.Microsoft.gradient( startColorstr='rgb(9, 9, 29)', endColorstr='rgb(9, 9, 29)',GradientType=1 );
+		--sobremim-bg-color: rgb(7, 7, 24);
+		--sobremim-bg:-moz-linear-gradient(left, rgb(7, 7, 24) 0%, rgb(7, 7, 24) 50%, rgb(7, 7, 24) 0%, rgb(7, 7, 24) 100%);
+		--sobremim-bg:-webkit-linear-gradient(left, rgb(7, 7, 24) 0%, rgb(7, 7, 24) 50%, rgb(7, 7, 24) 0%, rgb(7, 7, 24) 100%);
+		--sobremim-bg:linear-gradient(to right, rgb(7, 7, 24) 0%, rgb(7, 7, 24) 50%, rgb(7, 7, 24) 0%, rgb(7, 7, 24) 100%);
+		--sobremim-filter:progid:DXImageTransform.Microsoft.gradient( startColorstr='rgb(7, 7, 24)', endColorstr='rgb(7, 7, 24)',GradientType=1 );
 		--h2-h3-color: #648dae;
 		--butto-bg-color: #e0e0e0;
 		--box-shadow: inset 0 0 0 2px #e0e0e0;
@@ -66,6 +66,15 @@
 		--projetos-article-p: #f0f0f0;
 		--projetos-article-icon: #f0f0f0;
 		--sobremim-p: #f0f0f0;
+		--footer-bg-color: #11101f;
+		--footer-color:#bebebe;
+		--footer-h6: #648dae;
+		--footer-a:#f0f0f0;
+		--footer-a-link: #f0f0f0;
+		--footer-ahover-link: rgba(36, 124, 184, 0.979);
+		--footer-bg-icon: #11101f;
+		--icon-a-bg-color: #11101f;
+		--icon-a-color: #e6e6e6;
 		
 	}
 
