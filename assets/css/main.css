@@ -10,7 +10,7 @@
 		vertical-align: baseline;
 	}
 
-	.ligh:root{
+	:root{
 		--body-bg: #fff;
 		--body-bg-color: #fff;
 		--h2-h3-color: rgba(15, 80, 124, 0.979);
