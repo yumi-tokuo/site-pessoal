@@ -60,7 +60,7 @@
 		--sobremim-bg:linear-gradient(to right, rgb(9, 9, 29) 0%, rgb(9, 9, 29) 50%, rgb(9, 9, 29) 0%, rgb(9, 9, 29) 100%);
 		--sobremim-filter:progid:DXImageTransform.Microsoft.gradient( startColorstr='rgb(9, 9, 29)', endColorstr='rgb(9, 9, 29)',GradientType=1 );
 		--h2-h3-color: #648dae;
-		--butto-bg-color: #e0e0e0;
+		--button-bg-color: rgb(14, 14, 36);
 		--box-shadow: inset 0 0 0 2px #e0e0e0;
 		--box-shadow-color: #e0e0e0 !important;
 		--projetos-article-p: #f0f0f0;
